@@ -1,0 +1,61 @@
+#home
+{
+	
+	background-size: cover;
+}
+#home .navbar-wrapper
+{
+	min-width: 600px;
+}
+#home .navbar-fixed-top
+{
+	background: #fff;
+	height:86px;
+}
+#home .navbar-fixed-top .navbar-right>li>a
+{
+	font-family: Roboto;
+	color: #000;
+	font-size:12pt;
+
+}
+#home .navbar-fixed-top .navbar-right
+{
+	margin-top:2%;
+	margin-right:2%;
+}
+.navbar-fixed-top .navbar-nav>li>a:hover
+{
+	color:#00a2df;
+	background: transparent;
+	
+}
+.navbar-fixed-top .navbar-nav .active
+{
+	color:#00a2df !important;
+	background: transparent;
+}
+
+#expertise
+{
+	height:600px;
+	background: #fff;
+
+}
+
+/*#Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.navbar-toggle
+	{
+		background: #fff;
+		border:solid 2px #000;
+	}
+	.navbar-toggle span
+	{
+		color: #000;
+		height:3px;
+	}
+	}
